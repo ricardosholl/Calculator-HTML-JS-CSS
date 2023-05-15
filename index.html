@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1 class="title">Calculadora das 4 operações fundamentais</h1>
+    <div class="box-calculator">
+      <div class="box-number">
+        <button onclick="exibirNumero9()" class="number">9</button>
+        <button onclick="exibirNumero8()" class="number">8</button>
+        <button onclick="exibirNumero7()" class="number">7</button>
+      </div>
+      <div class="box-number">
+        <button onclick="exibirNumero6()" class="number">6</button>
+        <button onclick="exibirNumero5()" class="number">5</button>
+        <button onclick="exibirNumero4()" class="number">4</button>
+      </div>
+      <div class="box-number">
+        <button onclick="exibirNumero3()" class="number">3</button>
+        <button onclick="exibirNumero2()" class="number">2</button>
+        <button onclick="exibirNumero1()" class="number">1</button>
+      </div>
+      <div class="box-number-0">
+        <button onclick="exibirNumero0()" class="number">0</button>
+      </div>
+      <div class="box-operator">
+        <button onclick="add()" class="operator">+</button>
+        <button onclick="subtract()" class="operator">-</button>
+        <button onclick="multiply()" class="operator">x</button>
+        <button onclick="divide()" class="operator">/</button>
+      </div>
+      <div class="box-operator-calc">
+        <button onclick="resultado()" class="operator">Calcular</button>
+      </div>
+    </div>
+    <div class="field">
+      <p class="texto">Clique nos botões ou digite para calcular:</p>
+      <input
+        type="text"
+        id="mostrarExpressao"
+        placeholder="Digite aqui seu cálculo"
+        class="input"
+      />
+      <br />
+      <p class="texto">Seu resultado é:</p>
+      <input
+        type="text"
+        id="calculo"
+        placeholder="Resultado"
+        readonly
+        class="input"
+      />
+      <br />
+      <p class="texto">Sua última operação foi:</p>
+      <input
+        type="text"
+        id="historico"
+        placeholder="Último cálculo feito"
+        readonly
+        class="input"
+      />
+    </div>
+  </body>
+</html>

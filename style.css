@@ -1,0 +1,75 @@
+body {
+  background-color: #b2dbe2;
+}
+.texto {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+.title {
+  color: 1e2435;
+  padding-left: 33%;
+}
+.number {
+  color: white;
+  background-color: #1e2435;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  border-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.operator {
+  color: white;
+  background-color: #52c9dc;
+  border-color: #1e2435;
+  font-size: 35px;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+}
+.box-calculator {
+  background-color: #1e2435;
+  border-radius: 20px;
+  margin-left: 37%;
+  padding-top: 50px;
+  width: 20%;
+}
+.box-operator {
+  padding-left: 22%;
+  margin-top: 20px;
+}
+.box-operator-calc {
+  padding-left: 30%;
+  margin-bottom: 20px;
+}
+.box-number {
+  padding-left: 26%;
+  margin-top: 10px;
+}
+.box-number-0 {
+  padding-left: 44%;
+  margin-top: 10px;
+}
+.field {
+  color: white;
+  font-style: bold;
+  background-color: #1e2435;
+  margin-left: 37%;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 20%;
+  border-radius: 15px;
+}
+.input {
+  margin-left: 20%;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: #1e2435;
+  align-self: flex-start;
+}
